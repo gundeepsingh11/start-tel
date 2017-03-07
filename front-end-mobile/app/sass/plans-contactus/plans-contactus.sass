@@ -1,0 +1,104 @@
+$green-color: #07D566;
+
+*{
+	box-sizing: border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* gunnu css code*/
+
+.sec1{
+	color: $green-color;
+	text-align: center;
+	font-family: 'Roboto';
+	.planHead{
+		font-size: 2em;
+	}
+}
+.planBox {
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	color: $green-color;
+	margin: 0;
+	background-color: #FAFAFA;
+	padding: 20px 10px 15px 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+	justify-content: space-between;
+	border-bottom: 5px solid #ece9e9;
+}
+.head-line{
+	color: #C0C0C0;
+	width: 10%;
+	margin: 0 auto;
+}
+.plan1-head{
+	font-size: 16px;
+	font-family: 'Roboto' , sans-serif;
+	color: black;
+}
+.containerOne{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	p{
+	font-size: 14px;
+	color: #121212;
+	line-height: 20px;}
+	i{
+	padding-top: 20px;
+	color: $green-color;
+	font-size: 22px;}
+}
+
+.containerTwo{
+	background-color: $green-color;
+	
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding: 2% 2% 2% 2%;
+  text-align: center;
+	button {
+		background-color: $green-color;
+		border: 1px solid white;
+		padding: 1% 2% 1% 2%;
+		font-family: "Roboto";
+		font-size: 3vw;
+		color: white;}
+			button:hover{
+		background-color: white;
+		color: $green-color;
+		transition: 0.5s;}
+		div{
+			color: white;
+	font-size: 6vw;
+	font-family: Roboto;
+	width: 100%;
+		}
+}
+
+.containerTwo > *{
+	padding: 10px;
+  flex: 1 100%;
+}

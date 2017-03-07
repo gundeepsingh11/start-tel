@@ -1,0 +1,19 @@
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.scroll-top-style {
+    height: 40px;
+    width: 35px;
+    position: fixed;
+    bottom: 45px;
+    right: 0;
+    background: black;
+    img {
+        width: 100%;
+    }
+}

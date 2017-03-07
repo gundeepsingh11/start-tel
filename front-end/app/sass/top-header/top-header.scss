@@ -1,0 +1,80 @@
+$primary-color: #000;
+$header-height:60px;
+$header-font:25px;
+$font-color:#fff;
+.top-header {
+  height: $header-height;
+  background-color: $primary-color;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  /*position: fixed;*/
+  z-index:1;
+  align-items:center;
+}
+
+.contact-container {
+  display: flex;
+  img {
+    width: 25px;
+  }
+}
+
+.topHeader-txt a {
+  color: $font-color;
+  font: $header-font;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.topHeader-txt a:hover{
+  color:#07D566;
+  transition:0.5s;
+}
+
+.social-container {
+  display: inline-flex;
+
+  a {
+    margin: 4px;
+  }
+}
+
+.fbIcon, .twitter, .gPlus, .linkedIn {
+  background-image: url('./../img/social_ntw_icons1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.fbIcon {
+  height: 32px;
+  width: 34px;
+  background-position: 0px 0px;
+}
+
+.gPlus {
+  height: 32px;
+  width: 34px;
+  background-position: -43px 0px;
+}
+
+.twitter {
+  height: 32px;
+  width: 34px;
+  background-position: -84px 0px;
+}
+
+.linkedIn {
+  height: 32px;
+  width: 34px;
+  background-position: -128px 0px;
+}
+
+@media screen and (max-width: 720px) and(min-width: 480px)
+{
+  .top-header{
+    padding:0 50px;
+  }
+}
