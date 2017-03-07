@@ -10,8 +10,8 @@ app.use( bodyParser.json() )
 console.log( __dirname );
 app.use( express.static( __dirname + '/m-static' ) )
 app.use( express.static( __dirname + '/static' ) )
-app.listen( 3000, function() {
-  console.log( 'Example app listening on port 3000!' )
+app.listen( 3008, function() {
+  console.log( 'Example app listening on port 3008!' )
 } )
 app.get( '/*', function( req, res ) {
   md = new MobileDetect( req.headers[ 'user-agent' ] );
