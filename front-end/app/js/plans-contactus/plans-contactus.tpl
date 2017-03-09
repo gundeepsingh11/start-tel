@@ -56,7 +56,7 @@
         <img src="resources/img/startel_color_logo.png" class="footerLogo">
         <div class="footerLoc">
           <img src="resources/img/location_icon.png">
-          <span class="footer-margin"><a href="https://goo.gl/maps/5ZShXJv6EJz">20-22 Wenlock Road, London, England, N1 7GU</a></span>
+          <span class="footer-margin" style="color: black;"><a href="https://goo.gl/maps/5ZShXJv6EJz">20-22 Wenlock Road, London, England, N1 7GU</a></span>
         </div>
         <div class="footerMail">
           <img src="resources/img/mail_icon2.png">
